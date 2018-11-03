@@ -15,8 +15,6 @@ a {
     color: #fff;
 }
 
-/*header*/
-
 header {
     height: 1035px;
     padding: 32px 0 0;
@@ -79,8 +77,6 @@ div.header-text p:nth-child(n+2) {
     color: #fff;
 }
 
-/*interactive nav*/
-
 nav.menu.header-nav a:hover hr {
     position: relative;
     top: 35px;
@@ -93,8 +89,6 @@ div.logo-header img:hover {
     transform: rotate(-5deg);
     transition: all 300ms linear;
 }
-
-/*login/register*/
 
 div.member>div {
     position: absolute;
@@ -142,8 +136,6 @@ div.register p {
     margin-bottom: 6px;
 }
 
-/*interactive login/register*/
-
 div.member div.login-active {
     left: 0;
     z-index: 99;
@@ -184,8 +176,6 @@ form.member-form button {
     background: #fff;
     border-radius: 2px;
 }
-
-/*domain*/
 
 section.domain-block {
     background: #fff;
@@ -287,8 +277,6 @@ form.check-domain input.domain-form-2 {
     border-right: 1px solid #cbcbcb;
     border-left: 1px solid #cbcbcb;
 }
-
-/*packages*/
 
 section.packages-block {
     width: 100%;
@@ -437,8 +425,6 @@ span.select-plan:hover {
     padding: 10px 0px
 }
 
-/*interactive btn 'select-plan'*/
-
 div.container-packages>div:nth-child(1) span.select-plan:hover {
     box-shadow: inset 0 0 0 23px #f9d423;
 }
@@ -454,8 +440,6 @@ div.container-packages>div:nth-child(3) span.select-plan:hover {
 div.container-packages>div:nth-child(4) span.select-plan:hover {
     box-shadow: inset 0 0 0 23px #1abc9c;
 }
-
-/*circle*/
 
 div.container-packages>div svg {
     margin: 35px 65px 9px;
@@ -488,8 +472,6 @@ svg.progress-circle.indefinite circle.progress4 {
     stroke-dashoffset: 0;
     stroke-dasharray: 160 188;
 }
-
-/*about*/
 
 section.about-block {
     display: flex;
@@ -559,13 +541,9 @@ div.social-worker {
     margin: 0 auto;
 }
 
-/*interactive link worker*/
-
 div.social-worker a:hover {
     filter: invert(41%) sepia(15%) saturate(2473%) hue-rotate(155deg) brightness(109%) contrast(87%);
 }
-
-/*comments*/
 
 section.comments-block {
     display: grid;
@@ -648,8 +626,6 @@ div.slider-author hr {
     background: #979796;
 }
 
-/*functions*/
-
 section.functions-block {
     display: flex;
     justify-content: space-between;
@@ -716,8 +692,6 @@ div.container-functions p {
     line-height: 20px;
     color: #7e7e7e;
 }
-
-/*footer*/
 
 footer {
     min-height: 300px;
@@ -850,8 +824,6 @@ div.email a:hover {
     transition: all 500ms linear;
     color: #fff;
 }
-
-/*FONTs*/
 
 @font-face {
     font-family: "Lato-Medium";
